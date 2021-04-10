@@ -1,8 +1,11 @@
+using System.Diagnostics;
+using Microsoft.Extensions.Configuration;
+// Auto Fixture
 using AutoFixture;
 using AutoFixture.AutoMoq;
-using Microsoft.Extensions.Configuration;
+// MongoDB Driver
 using MongoDB.Driver;
-using System.Diagnostics;
+// Xunit
 using Xunit;
 
 namespace Repository.Mongo.Tests
